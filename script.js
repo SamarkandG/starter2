@@ -59,3 +59,26 @@
 
 // const age2 = calcAge2(1995);
 // console.log(age1, age2);
+
+// // ARROW FUNCTION
+
+// const calcAge2 = function (birthyear) {
+//   return 2037 - birthyear;
+// };
+
+// const calcAge3 = (birthyear) => 2037 - birthyear;
+// const age3 = calcAge3(1995);
+// console.log(age3);
+
+// // Plusieurs paramètres = ()
+// // Plusieurs opérations = {}
+
+// const yearsUntilRetirement = (birthyear, firstName) => {
+//   const age = 2037 - birthyear;
+//   const retirement = 65 - age;
+//   // return retirement
+//   return `${firstName} retires in ${retirement} years !`;
+// };
+
+// console.log(yearsUntilRetirement(1995, "Samarkand"));
+// console.log(yearsUntilRetirement(1986, "Riko"));

@@ -39,3 +39,14 @@
 // console.log(peruPercentage2.toFixed(2) + "%");
 // const iranPercentage2 = percentageOfWorld2(83);
 // console.log(iranPercentage2.toFixed(2) + "%");
+
+// ARROW FUNCTIONS
+
+// const percentageOfWorld3 = (population) => (population / 7900) * 100;
+
+// const chinaPercentage3 = percentageOfWorld3(1441);
+// console.log(chinaPercentage3.toFixed(2) + "%");
+// const peruPercentage3 = percentageOfWorld3(33);
+// console.log(peruPercentage3.toFixed(2) + "%");
+// const iranPercentage3 = percentageOfWorld3(83);
+// console.log(iranPercentage3.toFixed(2) + "%");

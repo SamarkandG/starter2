@@ -50,3 +50,21 @@
 // console.log(peruPercentage3.toFixed(2) + "%");
 // const iranPercentage3 = percentageOfWorld3(83);
 // console.log(iranPercentage3.toFixed(2) + "%");
+
+// FUNCTION CALLING FUNCTION
+
+// function percentageOfWorld(population) {
+//   const percentage = (population / 7900) * 100;
+//   return percentage.toFixed(2) + "%";
+// }
+
+// function describePopulation(country, population) {
+//   const percentageCountry = percentageOfWorld(population);
+//   const thedescription = `${country} has ${population} million people, which is about ${percentageCountry} of the world. `;
+
+//   return thedescription;
+// }
+
+// console.log(describePopulation("India", 1552));
+// console.log(describePopulation("Peru", 33));
+// console.log(describePopulation("Vietnam", 99));

@@ -97,3 +97,24 @@
 // }
 
 // console.log(fruitProcessor(2, 3));
+
+// const calcAge = function (birthyear) {
+//   return 2037 - birthyear;
+// };
+
+// const yearsUntilRetirement = function (birthyear, firstName) {
+//   const age = calcAge(birthyear);
+//   const retirement = 65 - age;
+//   if (retirement > 0) {
+//     console.log(`${firstName} retires in ${retirement} years !`);
+//     return retirement;
+//   } else {
+//     console.log(`${firstName} is retired !`);
+//     return -1;
+//   }
+
+//   // return `${firstName} retires in ${retirement} years !`;
+// };
+
+// console.log(yearsUntilRetirement(1995, "Samarkand"));
+// console.log(yearsUntilRetirement(1965, "Jeremiah"));

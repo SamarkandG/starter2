@@ -118,3 +118,39 @@
 
 // console.log(yearsUntilRetirement(1995, "Samarkand"));
 // console.log(yearsUntilRetirement(1965, "Jeremiah"));
+
+// const friend1 = "Wendy";
+// const friend2 = "Gillian";
+// const friend3 = "Hannah";
+
+// const friends = ["Wendy", "Gillian", "Hannah"];
+// console.log(friends[0]);
+// console.log(friends[2]);
+
+// // Savoir combien de choses il y a à l'intérieur du tableau !
+// console.log(friends.length);
+
+// console.log(friends[friends.length - 1]);
+
+// friends[2] = "Jonah";
+// console.log(friends);
+
+// const firstName = "Samarkand";
+// const samarkand = [firstName, "Guinot", 2022 - 1995, "web developer", friends];
+
+// console.log(samarkand);
+// console.log(samarkand.length);
+
+// const calcAge = function (birthyear) {
+//   return 2037 - birthyear;
+// };
+
+// const years = [1990, 1992, 1998, 2000, 2004];
+// const age1 = calcAge(years[0]);
+// const age2 = calcAge(years[2]);
+// const age3 = calcAge(years[4]);
+// console.log(age1, age2, age3);
+
+// const ages = [calcAge(years[0]), calcAge(years[2]), calcAge(years[4])];
+
+// console.log(ages);

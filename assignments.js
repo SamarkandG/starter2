@@ -69,21 +69,39 @@
 // console.log(describePopulation("Peru", 33));
 // console.log(describePopulation("Vietnam", 99));
 
-const populations = [1552, 33, 99, 10];
-console.log(populations);
+// const populations = [1552, 33, 99, 10];
+// console.log(populations);
 
-function percentageOfWorld(population) {
-  const percentage = (population / 7900) * 100;
-  return percentage.toFixed(2) + "%";
+// function percentageOfWorld(population) {
+//   const percentage = (population / 7900) * 100;
+//   return percentage.toFixed(2) + "%";
+// }
+
+// console.log(populations.length === 4);
+
+// const percentages = [
+//   percentageOfWorld(populations[0]),
+//   percentageOfWorld(populations[1]),
+//   percentageOfWorld(populations[2]),
+//   percentageOfWorld(populations[3]),
+// ];
+
+// console.log(percentages);
+
+const neighbours = ["Belgium", "Luxembourg", "Switzerland", "Spain"];
+console.log(neighbours);
+
+neighbours.push("Utopia");
+console.log(neighbours);
+
+neighbours.pop();
+console.log(neighbours);
+
+if (neighbours.includes("Germany")) {
+  console.log("Perfect !");
+} else {
+  console.log("Probably not a central European country :D");
 }
 
-console.log(populations.length === 4);
-
-const percentages = [
-  percentageOfWorld(populations[0]),
-  percentageOfWorld(populations[1]),
-  percentageOfWorld(populations[2]),
-  percentageOfWorld(populations[3]),
-];
-
-console.log(percentages);
+neighbours[3] = "Realm of Switzerland";
+console.log(neighbours);

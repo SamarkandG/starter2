@@ -154,3 +154,42 @@
 // const ages = [calcAge(years[0]), calcAge(years[2]), calcAge(years[4])];
 
 // console.log(ages);
+
+// const friends = ["Wendy", "Gillian", "Hannah"];
+
+// // push allows us to put a new element at the end of the array !
+// const newLength = friends.push("Kendra");
+// console.log(friends);
+// console.log(newLength);
+
+// // this puts basile at the beginning !
+// friends.unshift("Basile");
+// console.log(friends);
+
+// // This one deletes the last entry except if you enters
+// friends.pop();
+// console.log(friends);
+
+// // the delete option is in a variable
+// const popped = friends.pop();
+// console.log(friends);
+// console.log(popped);
+
+// // deleting the first thing in the array
+// friends.shift();
+// console.log(friends);
+
+// // Where in the array is positioned Gillian ?
+// console.log(friends.indexOf("Gillian")); // position : 1
+// // Searching a name that's not in the array, the console puts : -1
+// console.log(friends.indexOf("Gil")); // position : -1
+
+// // Savoir si oui ou non un objet est présent dans l'array ?
+// console.log(friends.includes("Gillian")); // TRUE
+// console.log(friends.includes("Gil")); // FALSE
+
+// // If the array FRIENDS include the name GILLIAN then log :
+
+// if (friends.includes("Gillian")) {
+//   console.log("You have a friend called Gillian");
+// }

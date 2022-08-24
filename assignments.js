@@ -88,20 +88,20 @@
 
 // console.log(percentages);
 
-const neighbours = ["Belgium", "Luxembourg", "Switzerland", "Spain"];
-console.log(neighbours);
+// const neighbours = ["Belgium", "Luxembourg", "Switzerland", "Spain"];
+// console.log(neighbours);
 
-neighbours.push("Utopia");
-console.log(neighbours);
+// neighbours.push("Utopia");
+// console.log(neighbours);
 
-neighbours.pop();
-console.log(neighbours);
+// neighbours.pop();
+// console.log(neighbours);
 
-if (neighbours.includes("Germany")) {
-  console.log("Perfect !");
-} else {
-  console.log("Probably not a central European country :D");
-}
+// if (neighbours.includes("Germany")) {
+//   console.log("Perfect !");
+// } else {
+//   console.log("Probably not a central European country :D");
+// }
 
-neighbours[3] = "Realm of Switzerland";
-console.log(neighbours);
+// neighbours[3] = "Realm of Switzerland";
+// console.log(neighbours);

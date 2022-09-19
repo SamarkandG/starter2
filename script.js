@@ -193,3 +193,18 @@
 // if (friends.includes("Gillian")) {
 //   console.log("You have a friend called Gillian");
 // }
+
+const friends = ["Wendy", "Gillian", "Hannah"];
+//  ADD ELEMENT
+const newLength = friends.push("Daiko");
+
+// friends.push("Daiko");
+console.log(friends);
+console.log(newLength);
+// ADD ELEMENT IN FIRST POSITION
+friends.unshift("Siko");
+console.log(friends);
+
+// REMOVE ELEMENT at the end
+friends.pop();
+console.log(friends);
